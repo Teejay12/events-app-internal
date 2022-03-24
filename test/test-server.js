@@ -106,7 +106,7 @@ describe('GET /', function() {
         return done();
       });
 
-      });
+      }); 
   });
 
   describe('DELETE /event/like', function() {
