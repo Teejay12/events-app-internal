@@ -19,7 +19,7 @@ const firestore = new Firestore(
 );
 
 // create the server
-const app = express();
+const app = express();  
 // the backend server will parse json, not a form request
 app.use(bodyParser.json());
 
